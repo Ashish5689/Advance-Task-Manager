@@ -1,0 +1,50 @@
+/* Base styles to ensure consistent starting point */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Drag and drop styles */
+.dragging {
+  cursor: grabbing;
+  opacity: 0.8;
+}
+
+/* Fade-in animation for new tasks */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade-out animation for deleted tasks */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Apply animations to task items */
+li {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+li.deleting {
+  animation: fadeOut 0.3s ease-in-out;
+}
