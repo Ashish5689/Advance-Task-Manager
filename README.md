@@ -49,7 +49,7 @@ A modern, feature-rich task management application built with React, TypeScript,
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/advance-task-manager.git
+   git clone https://github.com/Ashish5689/advance-task-manager.git
    cd advance-task-manager
    ```
 
@@ -115,10 +115,6 @@ yarn build
 
 The build artifacts will be stored in the `dist/` directory.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
@@ -131,9 +127,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## 📞 Contact
 
-Your Name - your.email@example.com
+Your Name - Ashish Jha
 
-Project Link: [https://github.com/yourusername/advance-task-manager](https://github.com/yourusername/advance-task-manager)
+Project Link: [https://github.com/Ashish5689/advance-task-manager](https://github.com/Ashish5689/advance-task-manager)
 
 ---
 
